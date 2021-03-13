@@ -117,7 +117,7 @@ namespace MIUIPlusWindowSizeChanger
 			if (button != null)
 			{
 				button.Content = "GUI(GitHub)";
-				button.NavigateUri = new Uri("https://github.com/RF103T/WindowSizeChangerCore");
+				button.NavigateUri = new Uri("https://github.com/RF103T/MIUIPlusWindowSizeChanger");
 			}
 		}
 	}
