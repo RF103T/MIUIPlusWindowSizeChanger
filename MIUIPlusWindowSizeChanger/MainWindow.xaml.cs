@@ -106,7 +106,7 @@ namespace MIUIPlusWindowSizeChanger
 			Windows.UI.Xaml.Controls.HyperlinkButton button = (sender as WindowsXamlHost).Child as Windows.UI.Xaml.Controls.HyperlinkButton;
 			if (button != null)
 			{
-				button.Content = "CoreCode(GitHub)";
+				button.Content = "Core";
 				button.NavigateUri = new Uri("https://github.com/RF103T/WindowSizeChangerCore");
 			}
 		}
@@ -116,7 +116,7 @@ namespace MIUIPlusWindowSizeChanger
 			Windows.UI.Xaml.Controls.HyperlinkButton button = (sender as WindowsXamlHost).Child as Windows.UI.Xaml.Controls.HyperlinkButton;
 			if (button != null)
 			{
-				button.Content = "GUI(GitHub)";
+				button.Content = "GUI";
 				button.NavigateUri = new Uri("https://github.com/RF103T/MIUIPlusWindowSizeChanger");
 			}
 		}

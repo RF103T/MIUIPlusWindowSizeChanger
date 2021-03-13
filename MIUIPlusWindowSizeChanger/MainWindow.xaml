@@ -63,15 +63,18 @@
 				<ColumnDefinition/>
 			</Grid.ColumnDefinitions>
 			<Grid Grid.Column="0">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
 				<Grid.RowDefinitions>
-					<RowDefinition/>
-					<RowDefinition/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
 				</Grid.RowDefinitions>
-				<xamlhost:WindowsXamlHost x:Name="githubCoreLink" InitialTypeName="Windows.UI.Xaml.Controls.HyperlinkButton"
-									  Grid.Row="0" Margin="5,25"
+				<Label Grid.Row="0" Grid.ColumnSpan="2" VerticalContentAlignment="Center" FontSize="14" Content="GitHub 存储库"/>
+				<xamlhost:WindowsXamlHost x:Name="githubCoreLink" InitialTypeName="Windows.UI.Xaml.Controls.HyperlinkButton" Grid.Row="1" Grid.Column="0"
 									  ChildChanged="githubCoreLink_ChildChanged"/>
-				<xamlhost:WindowsXamlHost x:Name="githubGUILink" InitialTypeName="Windows.UI.Xaml.Controls.HyperlinkButton"
-									  Grid.Row="1" Margin="5,25"
+				<xamlhost:WindowsXamlHost x:Name="githubGUILink" InitialTypeName="Windows.UI.Xaml.Controls.HyperlinkButton" Grid.Row="1" Grid.Column="1"
 									  ChildChanged="githubGUILink_ChildChanged"/>
 			</Grid>
 			<xamlhost:WindowsXamlHost x:Name="exitButon" InitialTypeName="Windows.UI.Xaml.Controls.Button"
