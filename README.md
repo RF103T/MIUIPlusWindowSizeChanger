@@ -3,7 +3,7 @@
 
 核心代码见[WindowSizeChangerCore](https://github.com/RF103T/WindowSizeChangerCore)
 
-** 正在发布Windows商店版本 **
+**正在发布Windows商店版本**
 
 # MIUIPlusWindowSizeChanger
 Change MIUI+ wndow size.
