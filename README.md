@@ -1,6 +1,8 @@
 # MIUI+窗口大小调整工具
 可以调整MIUI+跨屏共享窗口的轻量化工具。
 
+**注意：由于MIUI+已经官方支持窗口大小调整，所以此存储库已经弃用。**
+
 核心代码见[WindowSizeChangerCore](https://github.com/RF103T/WindowSizeChangerCore)
 
 # 功能
